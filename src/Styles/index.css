@@ -1,0 +1,30 @@
+
+.parent_div {
+
+  width: 100vw;
+  height: 100vh;
+background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.child_div_2
+{
+    width:40vw;
+    height:auto;
+    padding: 40px;
+    border-color: blue;
+    border-style: solid;
+    background:rgb(255, 254, 254) 
+}
+
+h2 {
+  color:rgb(31, 109, 122);
+  position: absolute; /* taken out of the normal flow of the document */
+  top: 50%; /* moved down by 50% of the screen height */
+  transform: translateY(-50%); /* moved back up (Y axis) by half of its height to achieve the perfect center */
+  width: 100%; /* needs to be defined to keep the default block behavior */
+  text-align: center;
+  margin: 0; /* again, for perfect center */
+ }
+ 
